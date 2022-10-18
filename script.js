@@ -42,7 +42,7 @@ setInterval(() => {
     offsetY = Math.abs(dy - oy);
     // console.log(offsetX, offsetY)
     if (offsetX < 73 && offsetY < 52) {
-        gameOver.innerHTML = "Deepak - Chal jabo ab dhuva dhar kre Bare"
+        gameOver.innerHTML = "Game Over- Reload To Play Again."
         obstacle.classList.remove('obstacleAni')
         audiogo.play();
         setTimeout(() => {
